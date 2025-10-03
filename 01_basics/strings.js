@@ -30,3 +30,19 @@ const max=20
 
 console.log(Math.floor(Math.random()*(max-min+1))+min);
 
+// let mydate=new Date();
+
+// console.log(mydate)
+// console.log(mydate.toString())
+// console.log(mydate.toISOString())
+// console.log(mydate.toJSON())
+// console.log(mydate.toLocaleDateString())
+// console.log(mydate.toLocaleString())
+
+let createdstring=new Date(2025, 11,17)
+console.log(createdstring.toLocaleDateString())
+
+let mytimestamp=Date.now()
+console.log(mytimestamp)
+//to seconds
+console.log(Math.floor(mytimestamp/1000))

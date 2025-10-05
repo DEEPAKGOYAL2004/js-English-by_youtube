@@ -30,10 +30,23 @@ const obj2={3:"c", 4:"d"}
 
 const obj3=Object.assign({},obj1,obj2)
 
-console.log(obj3)
+// console.log(obj3)
 
-console.log(Object.keys(student))
-console.log(Object.values(student))
-console.log(Object.entries(student))
+// console.log(Object.keys(student))
+// console.log(Object.values(student))
+// console.log(Object.entries(student))
+
+const course={
+    coursename:"Aerospace",
+    price:"200k",
+    courseinstructor:"Goyal"
+
+}
+console.log(course.courseinstructor)
+
+const {courseinstructor: Inst}=course
+console.log(Inst)
+
+
 
 
